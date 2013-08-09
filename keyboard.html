@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Keyboard Game</title>
+		<script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script language="JavaScript" type="text/javascript" src="keyboard.js"></script>
+		<script language="JavaScript" type="text/javascript" src="test.js"></script>
+		<link rel="stylesheet" typse="css/text" href="keyboard_style.css">
+	</head>
+	<body onLoad="init(); initbricks();">
+		<p>Skoor: </p>
+		<div id="tips">
+			Liikumiseks: <-- &nbsp&nbsp nooled &nbsp&nbsp --></br></br></br>
+			Palli liikumapanemiseks vajuta tühikut
+
+		</div>
+		<div id="score">0</div>
+		<canvas id="canvas" width="300" height="600"></canvas>
+		<input type="submit" value="PAUSE" onClick="paus()">
+	</body>
+</html>
